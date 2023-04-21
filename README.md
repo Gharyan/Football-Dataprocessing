@@ -25,8 +25,7 @@ Het kan zijn dat regels waar een * achter zit gewijzigd moeten worden naar de in
 
 5. Als er geen errors zijn dan kan de applicatie gestart worden en met postman requests uitgevoerd worden.
 
-###
-Front End
+### Front End
 
 1. Ga in cmd naar de locatie van de voetbal-dataprocessing-frontend
 
