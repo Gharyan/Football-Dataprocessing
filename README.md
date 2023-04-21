@@ -7,7 +7,7 @@ Dataprocessing opdracht Simon - 4588169
 ## Setup Guide
 
 ### Back End
-1. Installeer XAMP en start apache en mysql
+1. Installeer XAMPP en start apache en mysql
 
 2. Voeg de world_cup_2022 database toe in MySQL met behulp van world_cup_2022.sql bestand (Maak eerst de database aan met de naam "world_cup_2022").
 
@@ -33,7 +33,7 @@ Het kan zijn dat regels waar een * achter zit gewijzigd moeten worden naar de in
 
 3. Voer "code ." in om de code te zien
 
-4. Voer "npm start " in om de applicatie te starten (visualisatie is alleen te zien als xamp en spring boot api aan staan)
+4. Voer "npm start " in om de applicatie te starten (visualisatie is alleen te zien als XAMPP en spring boot api aan staan)
 
 ## User Guide
 
