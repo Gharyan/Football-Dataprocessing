@@ -6,9 +6,10 @@ Dataprocessing opdracht Simon - 4588169
 
 ## Setup Guide
 
+### Back End
 1. Installeer XAMP en start apache en mysql
 
-2. Voeg de world_cup_2022 database toe in MySQL met behulp van world_cup_2022.sql bestand.
+2. Voeg de world_cup_2022 database toe in MySQL met behulp van world_cup_2022.sql bestand (Maak eerst de database aan met de naam "world_cup_2022").
 
 3. Open het Java project in Intellij en voeg het volgende toe aan application.properties:
     ```
@@ -23,6 +24,17 @@ Het kan zijn dat regels waar een * achter zit gewijzigd moeten worden naar de in
 4. Als er errors zijn dan kan het zijn dat de maven dependencies opnieuw geinstallerd moet worden.
 
 5. Als er geen errors zijn dan kan de applicatie gestart worden en met postman requests uitgevoerd worden.
+
+###
+Front End
+
+1. Ga in cmd naar de locatie van de voetbal-dataprocessing-frontend
+
+2. Voer "npm i" in de cmd in
+
+3. Voer "code ." in om de code te zien
+
+4. Voer "npm start " in om de applicatie te starten (visualisatie is alleen te zien als xamp en spring boot api aan staan)
 
 ## User Guide
 
