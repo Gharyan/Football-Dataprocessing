@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:element name="result">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="result_id" type="xs:int"/>        
+                    <xs:element name="date" type="xs:date"/>
+                    <xs:element name="home_team" type="xs:string"/>
+                    <xs:element name="away_team" type="xs:string"/>
+                    <xs:element name="home_score" type="xs:int"/>
+                    <xs:element name="away_score" type="xs:int"/>
+                    <xs:element name="tournament" type="xs:string"/>
+                    <xs:element name="city" type="xs:string"/>
+                    <xs:element name="country" type="xs:string"/>
+                    <xs:element name="neutral" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:element name="goalscorer">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="goalscorer_id" type="xsd:int"/>
+                    <xsd:element name="date" type="xsd:date"/>
+                    <xsd:element name="home_team" type="xsd:string"/>
+                    <xsd:element name="away_team" type="xsd:string"/>
+                    <xsd:element name="team" type="xsd:string"/>
+                    <xsd:element name="scorer" type="xsd:string"/>
+                    <xsd:element name="minute" type="xsd:int"/>
+                    <xsd:element name="own_goal" type="xsd:boolean"/>
+                    <xsd:element name="penalty" type="xsd:boolean"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+</xsd:schema>

@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://json-schema.org/draft-07/schema#",
+    "title": "goalscorers",
+    "description": "Goalscorers of the 2022 world cup.",
+    "type": "object",
+    "properties": {
+        "goalscorer_id": {
+            "description": "Id of the goalscorer.",
+            "type": "integer"
+        },
+        "date": {
+            "description": "Date of the goal scored.",
+            "type": "string"
+        },
+        "home_team": {
+            "description": "Team playing at home.",
+            "type": "string"
+        },
+        "away_team": {
+            "description": "Team playing away.",
+            "type": "string"
+        },
+        "team": {
+            "description": "Team of the goalscorer.",
+            "type": "string"
+        },
+        "scorer": {
+            "description": "Name of the goalscorer.",
+            "type": "string"
+        },
+        "minute": {
+            "description": "Minitute the goal was scored.",
+            "type": "integer",
+            "exclusiveMinimum": 0
+        },
+        "own_goal": {
+            "description": "Was it an own goal?",
+            "type": "boolean"
+        },
+        "penalty": {
+            "description": "Was the goal a penalty?",
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "goalscorer_id",
+        "date",
+        "home_team",
+        "away_team",
+        "team",
+        "scorer",
+        "minute",
+        "own_goal",
+        "penalty"
+    ]
+}

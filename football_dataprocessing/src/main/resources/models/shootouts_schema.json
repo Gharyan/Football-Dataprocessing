@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://json-schema.org/draft-07/schema#",
+    "title": "shootouts",
+    "description": "Shootouts at the 2022 world cup.",
+    "type": "array",
+    "properties": {
+        "shootout_id": {
+            "description": "Id of the shootout.",
+            "type": "integer"
+        },
+        "date": {
+            "description": "Date of the shootout.",
+            "type": "string"
+        },
+        "home_team": {
+            "description": "Team playing at home.",
+            "type": "string"
+        },
+        "away_team": {
+            "description": "Team playing away.",
+            "type": "string"
+        },
+        "winner": {
+            "description": "Winner of the shootout.",
+            "type": "string"
+        }
+    },
+    "required": [
+        "shootout_id",
+        "date",
+        "home_team",
+        "away_team",
+        "winner"
+    ]
+}

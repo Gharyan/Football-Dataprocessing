@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://json-schema.org/draft-07/schema#",
+    "title": "results",
+    "description": "results of the 2022 world cup.",
+    "type": "array",
+    "properties": {
+        "results_id": {
+            "description": "Id of the results.",
+            "type": "integer"
+        },
+        "date": {
+            "description": "Date of the goal scored.",
+            "type": "string"
+        },
+        "home_team": {
+            "description": "Team playing at home.",
+            "type": "string"
+        },
+        "away_team": {
+            "description": "Team playing away.",
+            "type": "string"
+        },
+        "home_score": {
+            "description": "Score of the home team.",
+            "type": "number"
+        },
+        "away_score": {
+            "description": "Score of the away team.",
+            "type": "number"
+        },
+        "tournament": {
+            "description": "Tournament that was played in.",
+            "type": "string"
+        },
+        "city": {
+            "description": "City that was played in.",
+            "type": "string"
+        },
+        "country": {
+            "description": "Country that was played in.",
+            "type": "string"
+        },
+        "neutral": {
+            "description": "Was the game neutral?",
+            "type": "string"
+        }
+    },
+    "required": [
+        "result_id",
+        "date",
+        "home_team",
+        "away_team",
+        "home_score",
+        "away_score",
+        "tournament",
+        "city",
+        "country",
+        "neutral"
+    ]
+}
