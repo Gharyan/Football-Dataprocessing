@@ -35,7 +35,7 @@ const BarChart = () => {
     }, [baseurl])
 
     var data = {
-        labels: ["Sad"],
+        labels: [""],
         datasets: [{
             label: 'World Cup 2022',
             data: [1],
